@@ -1,0 +1,135 @@
+/*pre detection hiding*/
+.no-js .top-bar {
+  display: none;
+}
+
+@media screen and (min-width: 40em) {
+  .no-js .top-bar {
+    display: block;
+  }
+
+  .no-js .title-bar {
+    display: none;
+  }
+}
+/*pre detection hiding*/
+
+
+/*mobile stylings*/
+.menu a {
+    font-weight: 400;
+}
+.title-bar {
+    background-color: white;
+}
+/*mobile stylings*/
+
+
+
+
+/*main css*/
+body {
+/*    background-color: #ffffff;*/
+    background-color: #FF007A;
+/*    background-color: #F2233F;*/
+    font-family: "HelveticaNeue" !important;
+    font-weight: 50;
+}
+
+/**{font-family: "HelveticaNeue-Light" !important;}*/
+
+.btn-default {
+/*    color: #ff1a75;*/
+    color: white;
+    background-color: transparent;
+    border-color: white;
+}
+
+.btn-default:hover {
+    color: transparent;
+    background-color: white;
+    border-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: white;
+    font-family: "HelveticaNeue";
+    font-weight: 50;
+}
+
+a {
+    color: white;
+/*    font-weight: bold;*/
+    font-size: 125%;
+}
+a:hover {
+    color: dimgray;
+}
+
+p {
+    color: white;
+}
+
+.top-bar {
+  background-color: rgba(255,255,255,0.1) !important;
+}
+
+.top-bar ul {
+  background-color: transparent!important;
+}
+.top-bar li:hover {
+  background-color: rgba(242,219,255,0.05) !important;
+  border-radius: 3px !important;
+}
+
+.button {
+    font-size: 100%;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius:5px;
+}
+
+.button:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+    border-radius:5px;
+}
+
+.button large {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius:5px;
+}
+
+.button large:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+    border-radius:5px;
+}
+
+.form-control {
+    color: dimgrey;
+    border-width: thin;
+    border-color: dimgrey;
+    border-radius: 5px;
+}
+
+.wrapper {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    background-color: rgba(200,180,255,.06);
+}
+
+#appStoreBadge {
+/*    max-height: 10%;*/
+    height: 45px;
+}
